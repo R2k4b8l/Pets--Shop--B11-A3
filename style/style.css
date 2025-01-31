@@ -1,0 +1,19 @@
+/* google font  */
+
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap');
+
+/* css variables  */
+.font1{
+    font-family: "ADLaM Display", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .font2{
+    font-family: "Sora", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+  }
+  
+  

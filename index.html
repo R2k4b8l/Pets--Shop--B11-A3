@@ -1,11 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <!-- cdn for tailwindcss and daisyui -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <!-- font awesome cdn -->
+    <script
+      src="https://kit.fontawesome.com/21380a5759.js"
+      crossorigin="anonymous"
+    ></script>
+    <style type="text/tailwindcss">
+      @theme {
+        --color-clifford: #da373d;
+      }
+    </style>
+    <title>Browse4Pets</title>
+  </head>
+  <body>
+    <header>
+      <!-- Navbar -->
+      <nav class="bg-[#FFF9F4]">
+        <div class="container mx-auto flex justify-between px-5 py-5">
+          <!-- logo -->
+          <div class="flex gap-2">
+            <img src="image/logo-header.png" alt="" />
+            <h4 class="font2 text-xl font-semibold mt-2 max-md:hidden">
+              Browsese <span class="text-[#f5efce]">4</span> Pets
+            </h4>
+          </div>
+          <!-- mobile menu -->
+          <button class="btn btn-ghost text-xl lg:hidden md:hidden">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+
+          <!-- links -->
+          <div class="flex max-md:hidden">
+            <ul class="flex gap-2 font2 text-lg">
+              <li><a class="btn btn-ghost" href="#">Find a pet</a></li>
+              <li><a class="btn btn-ghost" href="#">Breeds</a></li>
+              <li><a class="btn btn-ghost" href="#">Contact us</a></li>
+            </ul>
+          </div>
+
+          <!-- <button -->
+          <div class="flex gap-2 max-md:hidden">
+            <button class="btn btn-ghost text-xl">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+            <button class="btn btn-ghost text-xl">
+              <i class="fa-regular fa-bell"></i>
+            </button>
+
+            <button class="btn btn-outline btn-warning text-black ">Login</button>
+            <button class="btn bg-[#FFDC26]">Register</button>
+          </div>
+        </div>
+      </nav>
+
+      <!-- hero section -->
+       <section class="container mx-auto px-5 max-md:py-10">
+        <div class="  lg:relative ">
+          <!-- text  -->
+           <div class="space-y-5 lg:absolute z-10 top-40">
+            <h1 class="font1 text-4xl lg:text-5xl font-bold">Pamper Your Pet, <br> Because They Deserve <br> the Best</h1>
+            <p class="font2  md:text-xl">Discover a world of treats, toys, and essentials handpicked for your furry friends. <br class="hidden lg:block"> 
+               Shop now and make tails wag with joy.</p>
+            <button class="btn bg-[#FFDC26] py-2 text-xl font-semibold">Find a pet</button>
+
+           </div>
+
+            <!-- image -->
+             <div class="relative">
+              <img class="w-full" src="image/cat-big.png" alt="">
+             </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+       </section>
+      
+
+
+
+
+
+
+
+
+
+
+
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
 </html>
